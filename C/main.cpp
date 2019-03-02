@@ -14,5 +14,7 @@ int main() {
 	HelloWorld();
 	Yeah();
 	PrintOk();
+	PrintOk2();
+	Yeah2();
 	return 0;
 }

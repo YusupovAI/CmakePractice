@@ -9,7 +9,7 @@ execute_process(COMMAND python3 preparing.py
 	WORKING_DIRECTORY A)
 
 
-add_executable(main C/main.cpp C/main.h)
+add_executable(main C/main.cpp)
 add_subdirectory(B)
 target_link_libraries(main lib_name)
 
